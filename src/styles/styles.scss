@@ -1,0 +1,8 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.btn {
+  &-primary {
+    background-color: gold;
+    color: #000;
+  }
+}

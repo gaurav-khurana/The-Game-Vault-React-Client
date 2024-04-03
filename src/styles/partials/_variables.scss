@@ -1,0 +1,58 @@
+// Color Pallete
+
+// primary colors
+
+$color-primary-black: #323232; // BandFlex-Black: Primary text color
+$color-primary-blue: #0095ff; // BrainFlex-Blue: Primart CTA. Active form field outline
+$color-primary-silver: #afafaf; // Silver: Seconday text color. Text label color.
+$color-primary-white: #ffffff; // White: background color. CTA text color
+
+// secondary colors
+
+$color-secondary-dark-black: #000000; // Dark-black: video player components
+$color-secondary-dark-blue: #0065ad; // Dark-blue: CTA hover state
+$color-secondary-mercury: #e1e1e1; // Mercury - Divider line. Form field outline.
+$color-secondary-alabaster: #fafafa; // Alabaster - form field background color
+
+// typography - mobile
+
+$mob-font-header: 2.4rem;
+$mob-font-section-header: 1.2rem;
+$mob-font-subheader-body: 1.3rem;
+$mob-font-label-button: 1rem;
+
+// typography - tablet & desktop
+
+$desk-font-header: 3.3rem;
+$desk-font-section-header: 1.2rem;
+$desk-font-subheader-body: 1.4rem;
+$desk-font-label-button: 1.2rem;
+
+// PADDING OR MARGIN - MOBILE
+
+$mob-spacing-big: 2.4rem;
+$mob-spacing-small: 1.6rem;
+
+// PADDING OR MARGIN - TABLET-DESKTOP
+
+$desk-spacing-big: 3.6rem;
+$desk-spacing-small: 2.4rem;
+
+// BUTTONS
+
+$button-height: 4rem;
+$button-width-tablet: 15rem;
+$button-width-mobile: 3.2rem;
+$button-radius: 4px;
+
+// DIVIDER
+
+$divider-color: $color-secondary-mercury;
+$divider-width: 1px;
+
+// SCREEN SIZE - TABLET & DESKTOP
+
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet-landscape: 940px;
+$breakpoint-desktop: 1279px;
