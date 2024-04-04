@@ -2,19 +2,20 @@
 
 // primary colors
 
-$color-primary-black: #323232; // BandFlex-Black: Primary text color
-$color-primary-blue: #0095ff; // BrainFlex-Blue: Primart CTA. Active form field outline
-$color-primary-silver: #afafaf; // Silver: Seconday text color. Text label color.
-$color-primary-white: #ffffff; // White: background color. CTA text color
+$color-primary-green: #c8ff80; // Xbox-green: Primary text color
+$color-primary-blue: #1766ff; // PS-Blue: Primart CTA. Active form field outline
+$color-primary-white: #ffffff; // White: logo color, website name
 
 // secondary colors
 
-$color-secondary-dark-black: #000000; // Dark-black: video player components
-$color-secondary-dark-blue: #0065ad; // Dark-blue: CTA hover state
-$color-secondary-mercury: #e1e1e1; // Mercury - Divider line. Form field outline.
-$color-secondary-alabaster: #fafafa; // Alabaster - form field background color
+$color-secondary-black: #0d1117; // black: background landing
+$color-secondary-dark-grey: #212932; // Dark-grey: background rest pages
 
 // typography - mobile
+
+// landing page  logo 2.6rem LH-2.3rem opnevault - 2.1rem L.H 2.1rem both 600; logo rest same F 2.6,LH 2.3 700
+// navigation, ps + xbox product page title, xbox PS 10rem LH 10rem 700
+// PS product page- icon 2.4rem LH 2.1rem 700; game title F,LH 2.1rem 700
 
 $mob-font-header: 2.4rem;
 $mob-font-section-header: 1.2rem;

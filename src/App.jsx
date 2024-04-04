@@ -5,6 +5,8 @@ import "./App.css";
 import "./styles/styles.scss";
 import Card from "./components/Card/Card";
 import Form from "./components/Form/Form";
+import LeftKeyGreen from "./assets/icons/left-key-green.svg";
+import LeftKeyBlue from "./assets/icons/left-key-blue.svg";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,6 +29,8 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <img className="LeftKey" src={LeftKeyGreen} alt="Left Key" />
+        <img className="LeftKey" src={LeftKeyBlue} alt="Left Key" />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
