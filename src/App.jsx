@@ -1,19 +1,20 @@
-import { useState } from "react";
-import reactLogo from "../src/assets/images/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import "./App.scss";
 import "./styles/styles.scss";
-import Card from "./components/Card/Card";
-import Form from "./components/Form/Form";
-import LeftKeyGreen from "./assets/icons/left-key-green.svg";
-import LeftKeyBlue from "./assets/icons/left-key-blue.svg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+import NavigationPage from "./pages/NavigationPage/NavigationPage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/menu" element={<NavigationPage />} />
+        </Routes>
+      </BrowserRouter>
+
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -61,7 +62,7 @@ function App() {
         ></textarea>
       </div>
       <Card />
-      <Form />
+      <Form /> */}
     </>
   );
 }

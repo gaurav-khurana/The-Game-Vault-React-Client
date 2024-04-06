@@ -17,9 +17,9 @@ $color-secondary-dark-grey: #212932; // Dark-grey: background rest pages
 // navigation, ps + xbox product page title, xbox PS 10rem LH 10rem 700
 // PS product page- icon 2.4rem LH 2.1rem 700; game title F,LH 2.1rem 700
 
-$mob-font-header: 2.4rem;
-$mob-font-section-header: 1.2rem;
-$mob-font-subheader-body: 1.3rem;
+$mob-font-heading: 5rem;
+$mob-font-logo: 2.6rem;
+$mob-font-text: 2.1rem;
 $mob-font-label-button: 1rem;
 
 // typography - tablet & desktop
@@ -48,7 +48,7 @@ $button-radius: 4px;
 
 // DIVIDER
 
-$divider-color: $color-secondary-mercury;
+// $divider-color: $color-secondary-mercury;
 $divider-width: 1px;
 
 // SCREEN SIZE - TABLET & DESKTOP

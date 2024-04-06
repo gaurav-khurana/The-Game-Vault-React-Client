@@ -1,6 +1,6 @@
 @use "../partials/variables" as *;
 @use "../partials/mixins" as *;
-@use "../partials/typography";
+@use "../partials/typography" as *;
 
 // universal styling rules
 
@@ -9,6 +9,9 @@
   font-size: 62.5%;
   margin: 0;
   padding: 0;
-  font-family: "Avenir Next"; // may change
+  font-family: "IBMPlexMono";
   font-weight: 400;
+  a {
+    text-decoration: none;
+  }
 }
