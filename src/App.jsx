@@ -3,6 +3,8 @@ import "./styles/styles.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import NavigationPage from "./pages/NavigationPage/NavigationPage";
+import XboxProductPage from "./pages/XboxProductPage/XboxProductPage";
+import PlaystationProductPage from "./pages/PlaystationProductPage/PlaystationProductPage";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<NavigationPage />} />
+          <Route path="/games/xbox" element={<XboxProductPage />} />
+          <Route path="/games/ps" element={<PlaystationProductPage />} />
         </Routes>
       </BrowserRouter>
 

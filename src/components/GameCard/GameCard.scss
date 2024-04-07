@@ -1,0 +1,33 @@
+@use "../../styles/partials/global";
+@use "../../styles/partials/typography";
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.gamecard {
+  width: 100vw;
+  height: 40rem;
+  margin-bottom: $spacing-small;
+
+  &__image {
+    width: 100vw;
+    height: 40rem;
+    object-fit: cover;
+    object-position: 71%;
+    object-position: 50%;
+    background: linear-gradient(
+      179.94deg,
+      rgba(0, 0, 0, 0) 69.85%,
+      #212932 93.92%
+    );
+  }
+
+  &__title {
+    height: 4rem;
+    color: $color-primary-white;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    // backup opt if gradient doesnt work
+    background-color: rgba(33, 41, 50, 0.4);
+  }
+}
