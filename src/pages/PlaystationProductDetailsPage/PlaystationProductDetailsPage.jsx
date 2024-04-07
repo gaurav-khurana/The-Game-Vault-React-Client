@@ -130,40 +130,6 @@ function PlaystationProductDetailsPage() {
               </div>
             </Link>
           </section>
-
-          <section className="ps-game-hero">
-            <img
-              className="ps-game-hero__image"
-              src={singleGame.image1}
-              alt="Hero image for game"
-            />
-          </section>
-
-          <section className="ps-game-capabilities">
-            <h3 className="ps-game-capabilities__title">Capabilities</h3>
-
-            <h2 className="ps-game-capabilities__text">
-              {singleGame.online_play}
-            </h2>
-
-            <div className="ps-game-capabilities__text-container">
-              <h2 className="ps-game-capabilities__text ps-game-capabilities__text--small">
-                {singleGame.players}
-              </h2>
-
-              <h2 className="ps-game-capabilities__text ps-game-capabilities__text--small">
-                {singleGame.ratings}
-              </h2>
-            </div>
-
-            <h2 className="ps-game-capabilities__text">
-              Developed by : {singleGame.developer}
-            </h2>
-
-            <h2 className="ps-game-capabilities__text">
-              Release date : {singleGame.release_date}
-            </h2>
-          </section>
         </main>
       </>
     )

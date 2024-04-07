@@ -84,52 +84,6 @@
       }
     }
   }
-
-  &-hero {
-    margin-bottom: $spacing-small;
-    @include flexbox(row, center, center);
-
-    &__image {
-      width: 90vw;
-      height: 45rem;
-      border-radius: $image-radius;
-      object-fit: cover;
-      object-position: 60%;
-    }
-  }
-
-  &-capabilities {
-    background-color: $color-secondary-dark-grey;
-    margin-bottom: $spacing-small;
-    padding: 2.8rem;
-    // padding-bottom: 0;
-
-    @include flexbox(column, center, flex-start);
-
-    &__title {
-      // background-color: $color-primary-blue;
-      color: $color-primary-white;
-      margin-bottom: $image-radius;
-    }
-
-    &__text {
-      width: 80vw;
-      background-color: $color-primary-blue;
-      color: $color-primary-white;
-      margin-bottom: $image-radius;
-      padding: $padding-small $padding-big;
-
-      &--small {
-        width: 35vw;
-        height: 7rem;
-        margin-right: 10vw;
-      }
-
-      &-container {
-        @include flexbox(row, space-between, center);
-      }
-    }
-  }
 }
 
 // a {
