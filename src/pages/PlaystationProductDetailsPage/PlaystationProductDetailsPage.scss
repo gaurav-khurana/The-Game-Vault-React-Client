@@ -38,7 +38,7 @@
 
     &__title {
       color: $color-primary-white;
-      width: 10rem;
+      width: 18rem;
     }
   }
 
@@ -102,12 +102,10 @@
     background-color: $color-secondary-dark-grey;
     margin-bottom: $spacing-small;
     padding: 2.8rem;
-    // padding-bottom: 0;
 
     @include flexbox(column, center, flex-start);
 
     &__title {
-      // background-color: $color-primary-blue;
       color: $color-primary-white;
       margin-bottom: $image-radius;
     }
@@ -121,13 +119,27 @@
 
       &--small {
         width: 35vw;
-        height: 7rem;
+        height: 10rem;
         margin-right: 10vw;
       }
 
       &-container {
         @include flexbox(row, space-between, center);
       }
+    }
+  }
+
+  &-description {
+    background-color: $color-secondary-dark-grey;
+    margin-bottom: $spacing-small;
+    padding: 2.8rem;
+
+    &__title {
+      color: $color-primary-white;
+      margin-bottom: $padding-big;
+    }
+    &__text {
+      color: $color-primary-white;
     }
   }
 }

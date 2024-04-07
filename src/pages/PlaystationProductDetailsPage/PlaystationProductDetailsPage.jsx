@@ -164,6 +164,13 @@ function PlaystationProductDetailsPage() {
               Release date : {singleGame.release_date}
             </h2>
           </section>
+
+          <section className="ps-game-description">
+            <h3 className="ps-game-description__title"> Description</h3>
+            <p className="ps-game-description__text">
+              {singleGame.description}
+            </p>
+          </section>
         </main>
       </>
     )
