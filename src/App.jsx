@@ -5,6 +5,9 @@ import HomePage from "./pages/HomePage/HomePage";
 import NavigationPage from "./pages/NavigationPage/NavigationPage";
 import XboxProductPage from "./pages/XboxProductPage/XboxProductPage";
 import PlaystationProductPage from "./pages/PlaystationProductPage/PlaystationProductPage";
+import PlaystationProductDetailsPage from "./pages/PlaystationProductDetailsPage/PlaystationProductDetailsPage";
+import XboxProductDetailsPage from "./pages/XboxProductDetailsPage/XboxProductDetailsPage";
+import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 
 function App() {
   return (
@@ -14,7 +17,13 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<NavigationPage />} />
           <Route path="/games/xbox" element={<XboxProductPage />} />
+          <Route path="/games/xbox/:id" element={<XboxProductDetailsPage />} />
           <Route path="/games/ps" element={<PlaystationProductPage />} />
+          <Route
+            path="/games/ps/:id"
+            element={<PlaystationProductDetailsPage />}
+          />
+          <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
       </BrowserRouter>
 

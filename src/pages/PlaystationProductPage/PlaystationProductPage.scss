@@ -13,7 +13,9 @@
 // }
 
 .ps {
+  width: 100vw;
   background-color: $color-secondary-black;
+  overflow-x: hidden;
 
   &-hero {
     background: linear-gradient(

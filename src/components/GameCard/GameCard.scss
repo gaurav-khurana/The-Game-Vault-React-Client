@@ -12,8 +12,8 @@
     width: 100vw;
     height: 40rem;
     object-fit: cover;
-    object-position: 71%;
     object-position: 50%;
+    object-position: 60%;
     background: linear-gradient(
       179.94deg,
       rgba(0, 0, 0, 0) 69.85%,
@@ -28,6 +28,6 @@
     position: relative;
     bottom: 40px;
     // backup opt if gradient doesnt work
-    background-color: rgba(33, 41, 50, 0.4);
+    background-color: rgba(33, 41, 50, 0.5);
   }
 }

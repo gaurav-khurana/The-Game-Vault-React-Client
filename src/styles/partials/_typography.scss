@@ -32,28 +32,41 @@
 
 .homepage__title,
 .navigation__title,
-.ps-hero__logo {
+.ps-hero__logo,
+.ps-game-header__logo {
   font-size: $mob-font-logo;
   // line-height: 2.3rem;/
   font-weight: 600;
 }
 
-.homepage__text {
+.homepage__text,
+.ps-game-about__subtitle,
+.ps-game-price__subtitle {
   font-size: $mob-font-text;
   line-height: 2.1rem;
   font-weight: 600;
 }
 
 .body__title,
-.ps-hero__title {
+.ps-hero__title,
+.ps-game-header__title {
   font-size: $mob-font-heading;
   line-height: 10rem;
   font-weight: 700;
 }
 
 .ps-icon__text,
-.gamecard__title {
+.gamecard__title,
+.ps-game-price__button-subtitle,
+.ps-game-price__button-icon {
   font-size: $mob-font-sub-heading;
   line-height: 2.1rem;
   font-weight: 700;
+}
+
+.ps-game-about__title,
+.ps-game-price__title {
+  font-size: $mob-font-sub-heading;
+  line-height: 4rem;
+  font-weight: 600;
 }
