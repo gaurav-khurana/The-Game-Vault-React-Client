@@ -171,6 +171,34 @@ function PlaystationProductDetailsPage() {
               {singleGame.description}
             </p>
           </section>
+
+          <section className="ps-game-description">
+            <img
+              className="ps-game-hero__image"
+              src={singleGame.image2}
+              alt={`image for ${singleGame.title}`}
+            />
+            <img
+              className="ps-game-hero__image"
+              src={singleGame.image3}
+              alt={`image for ${singleGame.title}`}
+            />
+            <img
+              className="ps-game-hero__image"
+              src={singleGame.image4}
+              alt={`image for ${singleGame.title}`}
+            />
+            <img
+              className="ps-game-hero__image"
+              src={singleGame.image5}
+              alt={`image for ${singleGame.title}`}
+            />
+            <img
+              className="ps-game-hero__image"
+              src={singleGame.image1}
+              alt={`image for ${singleGame.title}`}
+            />
+          </section>
         </main>
       </>
     )
