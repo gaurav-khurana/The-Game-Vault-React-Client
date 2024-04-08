@@ -1,0 +1,63 @@
+@use "../../styles//partials/global";
+@use "../../styles//partials/typography";
+@use "../../styles//partials/mixins" as *;
+@use "../../styles//partials/variables" as *;
+
+// * {
+//   font-size: 1rem;
+// }
+// img {
+//   width: 150px;
+//   height: 150px;
+// }
+
+.checkout {
+  @include desktop {
+    @include flexbox(row, space-between, center);
+  }
+
+  &-cart {
+    @include flexbox(column, center, center);
+
+    &__title {
+      font-size: 2rem;
+    }
+
+    &__image {
+      width: 90vw;
+      height: 30rem;
+      object-fit: cover;
+      object-position: 60%;
+    }
+  }
+
+  &-accordian {
+    // &-container {
+    //   @include flexbox(column, flex-start, flex-start);
+    // }
+
+    width: 100vw;
+
+    &__label {
+      font-size: 1rem;
+    }
+
+    &__input {
+      font-size: 1rem;
+    }
+
+    &__checkbox {
+      font-size: 1rem;
+    }
+
+    &__checkbox-container {
+      @include flexbox(row, flex-start, center);
+    }
+  }
+}
+.MuiAccordionDetails-root {
+  @include flexbox(column, flex-start, flex-start);
+}
+.MuiAccordionSummary-content {
+  font-size: 1rem;
+}

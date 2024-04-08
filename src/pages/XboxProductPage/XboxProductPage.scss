@@ -72,8 +72,9 @@
       @include flexbox(row, space-evenly, center);
     }
 
-    &__image {
-    }
+    // &__image {
+    // }
+
     &__text {
       color: $color-primary-green;
       margin-bottom: 0;
