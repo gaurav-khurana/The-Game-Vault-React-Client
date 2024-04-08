@@ -1,0 +1,150 @@
+@use "../../styles//partials/global";
+@use "../../styles//partials/typography";
+@use "../../styles//partials/mixins" as *;
+@use "../../styles//partials/variables" as *;
+
+.xbox-game {
+  width: 100vw;
+  background-color: $color-secondary-black;
+
+  &-header {
+    color: $color-primary-white;
+    margin-left: 2.8rem;
+
+    &__logo {
+      color: $color-primary-white;
+      padding-top: 3.3rem;
+    }
+
+    // &__title {
+    // }
+  }
+
+  &-about {
+    background-color: $color-secondary-dark-grey;
+    padding: 3.6rem 0;
+    margin-bottom: $spacing-small;
+
+    &-container {
+      height: 15rem;
+      margin-left: 2.8rem;
+    }
+
+    &__subtitle {
+      color: $color-primary-white;
+      line-height: 40px;
+      font-weight: 500;
+    }
+
+    &__title {
+      color: $color-primary-white;
+      width: 28rem;
+    }
+  }
+
+  &-price {
+    background-color: $color-secondary-dark-grey;
+    padding: 3.6rem 0;
+    margin-bottom: $spacing-small;
+
+    &-container {
+      //   height: 15rem;
+      margin-left: 2.8rem;
+      margin-bottom: 2.8rem;
+
+      @include flexbox(column, flex-start, flex-start);
+    }
+
+    &__subtitle {
+      color: $color-primary-white;
+      line-height: 40px;
+      font-weight: 500;
+    }
+
+    &__title {
+      color: $color-primary-white;
+      //   width: 10rem;
+    }
+
+    &__button {
+      width: 90vw;
+      height: 6rem;
+      background-color: $color-primary-green;
+      margin-inline: auto;
+
+      @include flexbox(row, center, center);
+
+      &-icon {
+        margin-right: 10px;
+      }
+      &-subtitle {
+        color: $color-secondary-black;
+        margin-bottom: 0;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &-hero {
+    margin-bottom: $spacing-small;
+    @include flexbox(row, center, center);
+
+    &__image {
+      width: 90vw;
+      height: 45rem;
+      border-radius: $image-radius;
+      object-fit: cover;
+      object-position: 60%;
+      margin-bottom: $spacing-small;
+    }
+  }
+
+  &-capabilities {
+    background-color: $color-secondary-dark-grey;
+    margin-bottom: $spacing-small;
+    padding: 2.8rem;
+
+    @include flexbox(column, center, flex-start);
+
+    &__title {
+      color: $color-primary-white;
+      margin-bottom: $image-radius;
+    }
+
+    &__text {
+      width: 80vw;
+      background-color: $color-primary-blue;
+      color: $color-primary-white;
+      margin-bottom: $image-radius;
+      padding: $padding-small $padding-big;
+
+      &--small {
+        width: 35vw;
+        height: 10rem;
+        margin-right: 10vw;
+      }
+
+      &-container {
+        @include flexbox(row, space-between, center);
+      }
+    }
+  }
+
+  &-description {
+    background-color: $color-secondary-dark-grey;
+    margin-bottom: $spacing-small;
+    padding: 2.8rem;
+
+    &__title {
+      color: $color-primary-white;
+      margin-bottom: $padding-big;
+    }
+    &__text {
+      color: $color-primary-white;
+    }
+  }
+}
+
+// a {
+//   text-decoration: none;
+// }

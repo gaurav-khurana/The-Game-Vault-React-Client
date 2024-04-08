@@ -9,7 +9,8 @@ function GameCard({ game }) {
     <>
       {/* <div>GameCard</div> */}
       <article className="gamecard">
-        <Link to={`/games/ps/${game.id}`}>
+        {/* <Link to={`/games/ps/${game.id}`}> */}
+        <Link to={`/games/xbox/${game.id}`}>
           <img
             className="gamecard__image"
             src={game.image1}

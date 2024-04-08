@@ -7,6 +7,7 @@ function CheckoutPage() {
   console.log(price);
   console.log(singleGame);
   console.log(singleGame.title);
+  console.log(singleGame.image1);
 
   return (
     <>
