@@ -40,6 +40,11 @@
       color: $color-primary-white;
       width: 28rem;
     }
+
+    //NOTE custom cursor with image as example
+    &:hover {
+      cursor: url("../../assets/icons/heart-blue.svg"), auto;
+    }
   }
 
   &-price {
@@ -64,6 +69,17 @@
     &__title {
       color: $color-primary-white;
       //   width: 10rem;
+    }
+
+    &__radio {
+      height: 20px;
+      width: 20px;
+      margin-right: $spacing-small;
+      // accent-color: $color-primary-blue; // for xbox
+
+      &:checked {
+        accent-color: $color-primary-blue; // for ps
+      }
     }
 
     &__button {
@@ -143,8 +159,28 @@
       color: $color-primary-white;
     }
   }
+
+  &-gallery {
+    @include flexbox(column, center, center);
+  }
+
+  &-carousel {
+    @include flexbox(row, center, center);
+  }
 }
 
 // a {
 //   text-decoration: none;
+// }
+
+// .ps-game-price__radio {
+//   height: 20px;
+//   width: 20px;
+//   margin-right: $spacing-small;
+//   // accent-color: $color-primary-green; // for xbox
+//   // accent-color: $color-primary-blue; // for xbox
+//   &:checked {
+//     accent-color: $color-primary-green; // for xbox
+//     accent-color: $color-primary-blue; // for ps
+//   }
 // }

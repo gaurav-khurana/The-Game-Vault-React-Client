@@ -176,7 +176,7 @@ function XboxProductDetailsPage() {
             </p>
           </section>
 
-          <section className="xbox-game-description">
+          <section className="xbox-game-gallery">
             <img
               className="xbox-game-hero__image"
               src={singleGame.image2}

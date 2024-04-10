@@ -35,6 +35,7 @@ function CheckoutPage() {
             <h3>Rental price{price}</h3>
           )}
         </section>
+
         <section className="checkout-accordian">
           <Accordion defaultExpanded>
             <AccordionSummary

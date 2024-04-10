@@ -3,6 +3,7 @@ import Cart from "../../assets/icons/cart.svg";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import ControlledCarousel from "../../components/Carousel/Carousel";
 
 function PlaystationProductDetailsPage() {
   // state to set all games
@@ -85,7 +86,7 @@ function PlaystationProductDetailsPage() {
                   type="radio"
                   name="price15days"
                   id="price15days"
-                />{" "}
+                />
                 {singleGame.price_15days} every two weeks
               </label>
 
@@ -172,7 +173,7 @@ function PlaystationProductDetailsPage() {
             </p>
           </section>
 
-          <section className="ps-game-description">
+          <section className="ps-game-gallery">
             <img
               className="ps-game-hero__image"
               src={singleGame.image2}
@@ -198,6 +199,10 @@ function PlaystationProductDetailsPage() {
               src={singleGame.image1}
               alt={`image for ${singleGame.title}`}
             />
+          </section>
+
+          <section className="ps-game-carousel">
+            <ControlledCarousel singleGame={singleGame} />
           </section>
         </main>
       </>

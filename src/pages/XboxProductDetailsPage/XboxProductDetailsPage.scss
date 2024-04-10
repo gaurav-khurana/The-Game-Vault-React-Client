@@ -66,6 +66,17 @@
       //   width: 10rem;
     }
 
+    &__radio {
+      height: 20px;
+      width: 20px;
+      margin-right: $spacing-small;
+      // accent-color: $color-primary-green; // for xbox
+
+      &:checked {
+        accent-color: $color-primary-green; // for xbox
+      }
+    }
+
     &__button {
       width: 90vw;
       height: 6rem;
@@ -142,6 +153,14 @@
     &__text {
       color: $color-primary-white;
     }
+  }
+
+  &-gallery {
+    @include flexbox(column, center, center);
+  }
+
+  &-carousel {
+    @include flexbox(row, center, center);
   }
 }
 
