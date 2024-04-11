@@ -73,7 +73,8 @@
 .ps-game-price__button-subtitle,
 .xbox-game-price__button-subtitle,
 .ps-game-price__button-icon,
-.xbox-game-price__button-icon {
+.xbox-game-price__button-icon,
+.confirmation__title {
   font-size: $mob-font-sub-heading;
   line-height: 2.1rem;
   font-weight: 700;
@@ -93,7 +94,9 @@
 
 .ps-game-description__text,
 .xbox-game-description__text,
-.checkout-accordian__label {
+.checkout-accordian__label,
+.confirmation__text,
+.confirmation__btn {
   font-size: $mob-font-body;
   line-height: 2.4rem;
   font-weight: 400;
