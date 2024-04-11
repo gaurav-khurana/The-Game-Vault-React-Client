@@ -2,7 +2,7 @@ import "./Carousel.scss";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-function ControlledCarousel({ singleGame }) {
+function GameCarousel({ singleGame }) {
   console.log(singleGame);
   const [index, setIndex] = useState(0);
 
@@ -42,4 +42,4 @@ function ControlledCarousel({ singleGame }) {
   );
 }
 
-export default ControlledCarousel;
+export default GameCarousel;
