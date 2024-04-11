@@ -17,15 +17,22 @@
   padding: $padding-big 0;
   text-align: center;
 
-  @include desktop {
-    @include flexbox(row, space-between, center);
-    padding: 5rem;
+  &-container {
+    @include desktop {
+      // height: 120vh;
+      @include flexbox(row, space-between, center);
+      padding: 5rem;
+    }
   }
 
   &__title {
     color: $color-primary-white;
     // font-size: 2rem;
     margin-bottom: $padding-big;
+
+    @include desktop {
+      margin-bottom: 0;
+    }
   }
 
   &-cart {
