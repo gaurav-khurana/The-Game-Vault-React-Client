@@ -13,6 +13,7 @@ function NavigationPage() {
               <h2 className="navigation__title">[G] The Game Vault</h2>
             </Link>
           </div>
+
           <Link to="/">
             <img
               className="navigation__icon"
@@ -21,10 +22,12 @@ function NavigationPage() {
             />
           </Link>
         </section>
+
         <section className="navigation__body">
           <Link to="/games/xbox">
             <h2 className="body__title">Xbox</h2>
           </Link>
+
           <Link to="/games/ps">
             <h2 className="body__title">Playstation</h2>
           </Link>

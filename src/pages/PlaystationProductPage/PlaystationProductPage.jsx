@@ -31,19 +31,21 @@ function PlaystationProductPage() {
   return (
     allGames && (
       <>
-        {/* <div>PlaystationProductPage</div> */}
         <main className="ps">
           <section className="ps-hero">
             <Link to="/">
               <h2 className="ps-hero__logo">[G]</h2>
             </Link>
+
             <h2 className="ps-hero__title">Playstation</h2>
+
             <img
               className="ps-hero__image"
               src={PsHero}
               alt="Playstation controller"
             />
           </section>
+
           <section className="ps-icons-container">
             <div className="ps-icons-group">
               <div className="ps-icon-container">
@@ -72,6 +74,7 @@ function PlaystationProductPage() {
               </div>
             </div>
           </section>
+
           <section className="ps-titles-container">
             {/* map func here to serve image & data to GameCard */}
             {allGames?.map((game) => (

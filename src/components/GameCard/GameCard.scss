@@ -8,6 +8,16 @@
   height: 40rem;
   margin-bottom: $spacing-small;
 
+  @include desktop {
+    // @include flexbox (row, flex)
+    width: 50vw;
+    width: 49.3vw;
+    // margin-right: $spacing-small;
+    &:nth-child(odd) {
+      margin-right: $spacing-small;
+    }
+  }
+
   &__image {
     width: 100vw;
     height: 40rem;
@@ -19,6 +29,11 @@
       rgba(0, 0, 0, 0) 69.85%,
       #212932 93.92%
     );
+
+    @include desktop {
+      width: 50vw;
+      width: 49.3vw;
+    }
   }
 
   &__title {
@@ -29,5 +44,12 @@
     bottom: 40px;
     // backup opt if gradient doesnt work
     background-color: rgba(33, 41, 50, 0.5);
+
+    @include desktop {
+      // @include flexbox (row, flex)
+      width: 50vw;
+      width: 49.3vw;
+      // margin-right: $spacing-small;
+    }
   }
 }

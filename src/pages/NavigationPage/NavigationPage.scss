@@ -22,6 +22,10 @@ main {
     // margin-inline: auto;
 
     @include flexbox(row, space-between, flex-start);
+
+    @include desktop {
+      width: 35vw;
+    }
   }
   &__title {
     width: 6.9rem;
@@ -30,9 +34,12 @@ main {
     line-height: 1.1;
     // font-weight: 600;
     color: $color-secondary-black;
+    cursor: pointer;
   }
 
-  //   &__icon {}
+  &__icon {
+    cursor: pointer;
+  }
 
   a {
     text-decoration: none;
@@ -43,6 +50,7 @@ main {
       //   font-weight: 600;
       color: $color-secondary-black;
       text-align: center;
+      cursor: pointer;
     }
   }
 }
