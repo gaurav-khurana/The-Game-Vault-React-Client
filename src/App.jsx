@@ -8,6 +8,7 @@ import PlaystationProductPage from "./pages/PlaystationProductPage/PlaystationPr
 import PlaystationProductDetailsPage from "./pages/PlaystationProductDetailsPage/PlaystationProductDetailsPage";
 import XboxProductDetailsPage from "./pages/XboxProductDetailsPage/XboxProductDetailsPage";
 import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
+import OrderConfirmedPage from "./pages/OrderConfirmedPage/OrderConfirmedPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             element={<PlaystationProductDetailsPage />}
           />
           <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/orderconfirmation" element={<OrderConfirmedPage />} />
         </Routes>
       </BrowserRouter>
 

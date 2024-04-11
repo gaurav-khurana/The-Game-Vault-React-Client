@@ -12,15 +12,33 @@
 // }
 
 .checkout {
+  height: 100vh;
+  background-color: $color-secondary-black;
+  padding: $padding-big 0;
+  text-align: center;
+
   @include desktop {
     @include flexbox(row, space-between, center);
+    padding: 5rem;
+  }
+
+  &__title {
+    color: $color-primary-white;
+    // font-size: 2rem;
+    margin-bottom: $padding-big;
   }
 
   &-cart {
+    width: 100vw;
+    height: 50vh;
+    background-color: $color-secondary-dark-grey;
+    color: $color-primary-white;
+    margin-right: $spacing-small;
+    margin-bottom: $spacing-small;
     @include flexbox(column, center, center);
 
-    &__title {
-      font-size: 2rem;
+    @include desktop {
+      width: 30vw;
     }
 
     &__image {
@@ -28,6 +46,16 @@
       height: 30rem;
       object-fit: cover;
       object-position: 60%;
+      border-radius: $image-radius;
+      margin-bottom: $padding-big;
+
+      @include desktop {
+        width: 20vw;
+      }
+    }
+
+    &__title {
+      margin-bottom: $padding-small;
     }
   }
 
@@ -37,17 +65,53 @@
     // }
 
     width: 100vw;
+    height: 50vh;
+
+    &__collapsed {
+      background-color: $color-secondary-dark-grey;
+    }
+
+    &-container {
+      background-color: $color-primary-green;
+    }
+
+    @include desktop {
+      width: 70vw;
+    }
 
     &__label {
-      font-size: 1rem;
+      // font-size: 1rem;
+      color: $color-secondary-black;
+      margin-bottom: $spacing-small;
     }
 
     &__input {
-      font-size: 1rem;
+      height: 4rem;
+      font-size: 1.5rem;
+      background-color: $color-primary-green;
+      border: $divider-width solid $color-secondary-black;
+      border-radius: $button-radius;
+      padding: $padding-small;
+      margin-bottom: $padding-big;
+
+      // border-color: $color-secondary-black;
+      &::placeholder {
+        color: $color-secondary-black;
+
+        // padding: $padding-small;
+      }
+
+      &:focus {
+        outline: $color-secondary-black;
+      }
     }
 
     &__checkbox {
-      font-size: 1rem;
+      accent-color: $color-secondary-black;
+      &-label {
+        font-size: 1.5rem;
+        margin-left: $spacing-small;
+      }
     }
 
     &__checkbox-container {
@@ -55,9 +119,44 @@
     }
   }
 }
+
 .MuiAccordionDetails-root {
   @include flexbox(column, flex-start, flex-start);
 }
+
 .MuiAccordionSummary-content {
-  font-size: 1rem;
+  // font-size: 1rem;
+}
+
+.MuiButton-root {
+  width: 20vw;
+  height: 4rem !important;
+  background-color: $color-secondary-black !important;
+  color: $color-primary-green !important;
+
+  @include desktop {
+    width: 12vw;
+  }
+}
+
+.MuiButton-text {
+  font-size: 1.2rem !important;
+}
+
+#panel1-header,
+#panel2-header,
+#panel3-header {
+  background-color: $color-secondary-dark-grey;
+  color: $color-primary-white;
+}
+
+.MuiAccordionActions-root,
+.MuiAccordionActions-spacing,
+.css-adcfpp-MuiAccordionActions-root {
+  background-color: $color-secondary-dark-grey;
+}
+
+.MuiAccordionSummary-content,
+.MuiSvgIcon-root {
+  color: $color-primary-green;
 }
