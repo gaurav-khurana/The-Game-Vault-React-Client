@@ -94,6 +94,7 @@ function CheckoutPage() {
     <>
       <main className="checkout">
         <h2 className="checkout__title">Checkout</h2>
+
         <section className="checkout-container">
           <section className="checkout-cart">
             <img
