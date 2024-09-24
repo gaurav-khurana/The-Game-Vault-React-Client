@@ -6,7 +6,7 @@ function OrderConfirmedPage() {
     <>
       <main className="confirmation">
         <section className="xbox-game-header">
-          <Link to="/">
+          <Link to="/menu">
             <h2 className="xbox-game-header__logo">[G]</h2>
           </Link>
         </section>

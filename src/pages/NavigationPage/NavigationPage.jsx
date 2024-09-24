@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 function NavigationPage() {
   return (
     <>
-      {/* <div>NavigationPage</div> */}
       <main className="navigation">
         <section className="navigation__header">
           <div className="navigation__title-container">

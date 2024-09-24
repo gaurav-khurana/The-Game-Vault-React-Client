@@ -1,6 +1,6 @@
 import "./GameCard.scss";
 // import Spiderman from "../../assets/images/spiderman1.png";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function GameCard({ game }) {
   // const { console } = useParams;
@@ -22,11 +22,11 @@ function GameCard({ game }) {
 
   return (
     <>
-      {/* <div>GameCard</div> */}
       <article className="gamecard" onClick={handleConsole}>
         {/* <Link to={`/games/ps/${game.id}`}> */}
         {/* <Link to={`/games/xbox/${game.id}`}> */}
         {/* <Link to={`/games/${console}/${game.id}`}> */}
+
         <img
           className="gamecard__image"
           src={game.image1}
@@ -37,7 +37,6 @@ function GameCard({ game }) {
         <h3 className="gamecard__title">{game.title}</h3>
 
         {/* <h3 className="gamecard__title">Spiderman 2 Miles Morales</h3> */}
-        {/* </Link> */}
       </article>
     </>
   );
