@@ -75,6 +75,7 @@ function XboxProductDetailsPage() {
                 <h2 className="xbox-game-about__title">{singleGame.genre}</h2>
               </div>
             </section>
+
             <section className="xbox-game-price" onChange={handlePrice}>
               <div className="xbox-game-price-container">
                 <h3 className="xbox-game-price__subtitle">Rent</h3>

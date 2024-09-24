@@ -1,6 +1,5 @@
 import "./XboxProductPage.scss";
 import XboxHero from "../../assets/images/xbox.png";
-// import XboxHero from "../../assets/images/xbox2.jpeg";
 import HeartGreen from "../../assets/icons/heart-green.svg";
 import LeftGreen from "../../assets/icons/left-key-green.svg";
 import RightGreen from "../../assets/icons/right-key-green.svg";
@@ -11,7 +10,6 @@ import axios from "axios";
 
 function XboxProductPage() {
   // state to set all games
-
   const [allGames, setAllGames] = useState([]);
 
   // useEffect to do axios call to GET all playstation games
@@ -32,19 +30,22 @@ function XboxProductPage() {
   return (
     allGames && (
       <>
-        {/* <div>XboxProductPage</div> */}
         <main className="xbox">
           <section className="xbox-hero">
             <Link to="/">
               <h2 className="xbox-hero__logo">[G]</h2>
             </Link>
+
             <h2 className="xbox-hero__title">Xbox</h2>
+
             <img
               className="xbox-hero__image"
               src={XboxHero}
               alt="Xbox controller"
             />
           </section>
+
+          {/* extract icons with text to seperate component & try to make it reusable for xbox & ps page */}
           <section className="xbox-icons-container">
             <div className="xbox-icons-group">
               <div className="xbox-icon-container">
@@ -73,13 +74,13 @@ function XboxProductPage() {
               </div>
             </div>
           </section>
+
           <section className="xbox-titles-container">
             {/* map func here to serve image & data to GameCard */}
+
             {allGames?.map((game) => (
               <GameCard key={game.id} game={game} />
             ))}
-            {/* <GameCard />
-            <GameCard /> */}
           </section>
         </main>
       </>
