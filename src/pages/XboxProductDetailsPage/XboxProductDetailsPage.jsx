@@ -7,20 +7,23 @@ import GameCarousel from "../../components/Carousel/Carousel";
 
 function XboxProductDetailsPage() {
   // state to set all games
+
   const [singleGame, setSingleGames] = useState({});
   const [price, setPrice] = useState("");
 
   // get id from params to do api call
+
   const { id } = useParams();
 
   // useEffect to do axios call to get single game by id
+
   useEffect(() => {
     async function getSingleGame() {
       const response = await axios.get(
         `http://localhost:8080/games/xbox/${id}`
       );
 
-      console.log(response.data);
+      // console.log(response.data);
 
       setSingleGames(response.data);
     }
@@ -31,22 +34,22 @@ function XboxProductDetailsPage() {
   // event handler to get price selected by user
   const handlePrice = (event) => {
     event.preventDefault();
-    console.log(event);
-    console.log(event.target);
-    console.log(event.target.checked);
-    console.log(event.target.id);
+    // console.log(event);
+    // console.log(event.target);
+    // console.log(event.target.checked);
+    // console.log(event.target.id);
 
     if (event.target.checked && event.target.id === "price") {
       setPrice(singleGame.price);
-      console.log(singleGame.price);
+      // console.log(singleGame.price);
     }
     if (event.target.checked && event.target.id === "price15days") {
       setPrice(singleGame.price_15days);
-      console.log(singleGame.price_15days);
+      // console.log(singleGame.price_15days);
     }
     if (event.target.checked && event.target.id === "price30days") {
       setPrice(singleGame.price_30days);
-      console.log(singleGame.price_30days);
+      // console.log(singleGame.price_30days);
     }
   };
 

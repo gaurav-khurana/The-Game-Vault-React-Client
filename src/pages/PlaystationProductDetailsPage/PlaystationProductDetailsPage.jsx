@@ -18,7 +18,7 @@ function PlaystationProductDetailsPage() {
     async function getSingleGame() {
       const response = await axios.get(`http://localhost:8080/games/ps/${id}`);
 
-      console.log(response.data);
+      // console.log(response.data);
 
       setSingleGames(response.data);
     }
@@ -29,22 +29,22 @@ function PlaystationProductDetailsPage() {
   // event handler to get price selected by user
   const handlePrice = (event) => {
     event.preventDefault();
-    console.log(event);
-    console.log(event.target);
-    console.log(event.target.checked);
-    console.log(event.target.id);
+    // console.log(event);
+    // console.log(event.target);
+    // console.log(event.target.checked);
+    // console.log(event.target.id);
 
     if (event.target.checked && event.target.id === "price") {
       setPrice(singleGame.price);
-      console.log(singleGame.price);
+      // console.log(singleGame.price);
     }
     if (event.target.checked && event.target.id === "price15days") {
       setPrice(singleGame.price_15days);
-      console.log(singleGame.price_15days);
+      // console.log(singleGame.price_15days);
     }
     if (event.target.checked && event.target.id === "price30days") {
       setPrice(singleGame.price_30days);
-      console.log(singleGame.price_30days);
+      // console.log(singleGame.price_30days);
     }
   };
 
@@ -83,7 +83,7 @@ function PlaystationProductDetailsPage() {
                   <input
                     className="ps-game-price__radio"
                     type="radio"
-                    name="price15days"
+                    name="price"
                     id="price15days"
                   />
                   {singleGame.price_15days} every two weeks
@@ -93,7 +93,7 @@ function PlaystationProductDetailsPage() {
                     // onChange={handlePrice}
                     className="ps-game-price__radio"
                     type="radio"
-                    name="price30days"
+                    name="price"
                     id="price30days"
                   />
                   {singleGame.price_30days} every four weeks
