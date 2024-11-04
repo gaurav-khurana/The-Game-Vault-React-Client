@@ -21,7 +21,7 @@ function PlaystationProductPage() {
         `http://localhost:8080/games/ps`
       );
 
-      console.log(response.data);
+      // console.log(response.data);
 
       setAllGames(response.data);
     }
