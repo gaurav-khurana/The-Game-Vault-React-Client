@@ -11,10 +11,10 @@ import { useState } from "react";
 function CheckoutPage() {
   const location = useLocation();
   const { price, singleGame } = location.state;
-  console.log(price);
-  console.log(singleGame);
-  console.log(singleGame.title);
-  console.log(singleGame.image1);
+  // console.log(price);
+  // console.log(singleGame);
+  // console.log(singleGame.title);
+  // console.log(singleGame.image1);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -167,6 +167,7 @@ function CheckoutPage() {
                   type="text"
                   name="address"
                   id="address"
+                  placeholder="4 Privet Drive"
                   onChange={handleAddress}
                 />
                 <label className="checkout-accordian__label" htmlFor="city">
@@ -177,6 +178,7 @@ function CheckoutPage() {
                   type="text"
                   name="city"
                   id="city"
+                  placeholder="Vancouver"
                   onChange={handleCity}
                 />
                 <label className="checkout-accordian__label" htmlFor="code">
@@ -187,6 +189,7 @@ function CheckoutPage() {
                   type="text"
                   name="code"
                   id="code"
+                  placeholder="V6Y 4J9"
                   onChange={handlePostalCode}
                 />
                 <label className="checkout-accordian__label" htmlFor="country">
@@ -224,7 +227,7 @@ function CheckoutPage() {
                 Payment
               </AccordionSummary>
               <AccordionDetails className="checkout-accordian-container">
-                <div className="checkout-accordian__checkbox-container">
+                {/* <div className="checkout-accordian__checkbox-container">
                   <input
                     className="checkout-accordian__checkbox"
                     type="checkbox"
@@ -237,7 +240,8 @@ function CheckoutPage() {
                   >
                     Credit card
                   </label>
-                </div>
+                </div> */}
+
                 {/* <div className="checkout-accordian__checkbox-container">
                   <input
                     className="checkout-accordian__label"
@@ -249,6 +253,7 @@ function CheckoutPage() {
                     Debit card
                   </label>
                 </div> */}
+
                 <label
                   className="checkout-accordian__label"
                   htmlFor="cardnumber"
@@ -260,7 +265,7 @@ function CheckoutPage() {
                   type="number"
                   name="cardnumber"
                   id="cardnumber"
-                  placeholder="xxxx"
+                  placeholder="1234 xxxx xxxx 5678"
                   onChange={handleCardNumber}
                 />
                 <label className="checkout-accordian__label" htmlFor="expdate">

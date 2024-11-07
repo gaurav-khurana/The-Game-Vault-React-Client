@@ -1,10 +1,7 @@
 import "./GameCard.scss";
-// import Spiderman from "../../assets/images/spiderman1.png";
 import { useNavigate } from "react-router-dom";
 
 function GameCard({ game }) {
-  // const { console } = useParams;
-
   const navigate = useNavigate();
 
   const id = game.id;
@@ -14,6 +11,7 @@ function GameCard({ game }) {
       navigate(`/games/xbox/${game.id}`);
       return;
     }
+
     if (id >= 11 && id <= 20) {
       navigate(`/games/ps/${game.id}`);
       return;
@@ -30,7 +28,6 @@ function GameCard({ game }) {
         <img
           className="gamecard__image"
           src={game.image1}
-          //   src={Spiderman}
           alt={`Image of ${game.title}`}
         />
 

@@ -91,7 +91,7 @@ function XboxProductDetailsPage() {
                   <input
                     className="xbox-game-price__radio"
                     type="radio"
-                    name="price15days"
+                    name="price"
                     id="price15days"
                   />{" "}
                   {singleGame.price_15days} every two weeks
@@ -101,7 +101,7 @@ function XboxProductDetailsPage() {
                     // onChange={handlePrice}
                     className="xbox-game-price__radio"
                     type="radio"
-                    name="price30days"
+                    name="price"
                     id="price30days"
                   />
                   {singleGame.price_30days} every four weeks

@@ -3,8 +3,7 @@ import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
 function GameCarousel({ singleGame }) {
-  // console.log(singleGame);
-
+  // state to set carousel image index
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
