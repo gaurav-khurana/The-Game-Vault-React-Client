@@ -13,11 +13,11 @@
     "players": "Single player",
     "online_play": "Single player offline",
     "ratings": "4.5 / 5",
-    "image1": "../../../dist/images/HogwartsLegacy/Hogwarts1.webp",
-    "image2": "../../../dist/images/HogwartsLegacy/Hogwarts2.jpeg",
-    "image3": "../../../dist/images/HogwartsLegacy/Hogwarts3.jpeg",
-    "image4": "../../../dist/images/HogwartsLegacy/Hogwarts4.jpeg",
-    "image5": "../../../dist/images/HogwartsLegacy/Hogwarts5.jpeg"
+    "image1": "../../../public/images/HogwartsLegacy/Hogwarts1.webp",
+    "image2": "../../../public/images/HogwartsLegacy/Hogwarts2.jpeg",
+    "image3": "../../../public/images/HogwartsLegacy/Hogwarts3.jpeg",
+    "image4": "../../../public/images/HogwartsLegacy/Hogwarts4.jpeg",
+    "image5": "../../../public/images/HogwartsLegacy/Hogwarts5.jpeg"
   },
   {
     "id": 2,
@@ -33,11 +33,11 @@
     "players": "1 - 2 players",
     "online_play": "Online multiplayer (upto to 22 players)",
     "ratings": "4.1 / 5",
-    "image1": "../../../dist/images/F123/F11.jpeg",
-    "image2": "../../../dist/images/F123/F12.jpeg",
-    "image3": "../../../dist/images/F123/F13.jpeg",
-    "image4": "../../../dist/images/F123/F14.jpeg",
-    "image5": "../../../dist/images/F123/F15.jpeg"
+    "image1": "../../../public/images/F123/F11.jpeg",
+    "image2": "../../../public/images/F123/F12.jpeg",
+    "image3": "../../../public/images/F123/F13.jpeg",
+    "image4": "../../../public/images/F123/F14.jpeg",
+    "image5": "../../../public/images/F123/F15.jpeg"
   },
   {
     "id": 3,
@@ -53,11 +53,11 @@
     "players": "Single player",
     "online_play": "Single player offline",
     "ratings": "4.2 / 5",
-    "image1": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla1.webp",
-    "image2": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla2.jpeg",
-    "image3": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla3.jpeg",
-    "image4": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla4.jpeg",
-    "image5": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla5.jpeg"
+    "image1": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla1.webp",
+    "image2": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla2.jpeg",
+    "image3": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla3.jpeg",
+    "image4": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla4.jpeg",
+    "image5": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla5.jpeg"
   },
   {
     "id": 4,
@@ -73,11 +73,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 8 players)",
     "ratings": "4.2 / 5",
-    "image1": "../../../dist/images/WatchDogs3/watchdogs1.jpeg",
-    "image2": "../../../dist/images/WatchDogs3/watchdogs2.jpeg",
-    "image3": "../../../dist/images/WatchDogs3/watchdogs3.jpeg",
-    "image4": "../../../dist/images/WatchDogs3/watchdogs4.jpeg",
-    "image5": "../../../dist/images/WatchDogs3/watchdogs5.webp"
+    "image1": "../../../public/images/WatchDogs3/watchdogs1.jpeg",
+    "image2": "../../../public/images/WatchDogs3/watchdogs2.jpeg",
+    "image3": "../../../public/images/WatchDogs3/watchdogs3.jpeg",
+    "image4": "../../../public/images/WatchDogs3/watchdogs4.jpeg",
+    "image5": "../../../public/images/WatchDogs3/watchdogs5.webp"
   },
 
   {
@@ -94,11 +94,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 12 players)",
     "ratings": "4.4 / 5",
-    "image1": "../../../dist/images/FarCry5/FarCry1.jpeg",
-    "image2": "../../../dist/images/FarCry5/FarCry2.jpg",
-    "image3": "../../../dist/images/FarCry5/FarCry3.jpg",
-    "image4": "../../../dist/images/FarCry5/FarCry4.jpeg",
-    "image5": "../../../dist/images/FarCry5/FarCry5.jpeg"
+    "image1": "../../../public/images/FarCry5/FarCry1.jpeg",
+    "image2": "../../../public/images/FarCry5/FarCry2.jpg",
+    "image3": "../../../public/images/FarCry5/FarCry3.jpg",
+    "image4": "../../../public/images/FarCry5/FarCry4.jpeg",
+    "image5": "../../../public/images/FarCry5/FarCry5.jpeg"
   },
 
   {
@@ -115,11 +115,11 @@
     "players": "1 - 4 players",
     "online_play": "Online multiplayer (upto to 4 players)",
     "ratings": "4.1 / 5",
-    "image1": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint1.webp",
-    "image2": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint2.jpeg",
-    "image3": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint3.jpeg",
-    "image4": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint4.jpeg",
-    "image5": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint5.jpeg"
+    "image1": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint1.webp",
+    "image2": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint2.jpeg",
+    "image3": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint3.jpeg",
+    "image4": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint4.jpeg",
+    "image5": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint5.jpeg"
   },
   {
     "id": 7,
@@ -135,11 +135,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 30 players)",
     "ratings": "4.5 / 5",
-    "image1": "../../../dist/images/GTAV/GTA1.jpeg",
-    "image2": "../../../dist/images/GTAV/GTA2.jpeg",
-    "image3": "../../../dist/images/GTAV/GTA3.jpeg",
-    "image4": "../../../dist/images/GTAV/GTA4.jpeg",
-    "image5": "../../../dist/images/GTAV/GTA5.jpeg"
+    "image1": "../../../public/images/GTAV/GTA1.jpeg",
+    "image2": "../../../public/images/GTAV/GTA2.jpeg",
+    "image3": "../../../public/images/GTAV/GTA3.jpeg",
+    "image4": "../../../public/images/GTAV/GTA4.jpeg",
+    "image5": "../../../public/images/GTAV/GTA5.jpeg"
   },
 
   {
@@ -156,11 +156,11 @@
     "players": "1 - 4 players",
     "online_play": "Online multiplayer (upto to 10 players)",
     "ratings": "3.1 / 5",
-    "image1": "../../../dist/images/NBA2k24/nba1.jpeg",
-    "image2": "../../../dist/images/NBA2k24/nba2.jpeg",
-    "image3": "../../../dist/images/NBA2k24/nba3.jpeg",
-    "image4": "../../../dist/images/NBA2k24/nba4.jpeg",
-    "image5": "../../../dist/images/NBA2k24/nba5.jpeg"
+    "image1": "../../../public/images/NBA2k24/nba1.jpeg",
+    "image2": "../../../public/images/NBA2k24/nba2.jpeg",
+    "image3": "../../../public/images/NBA2k24/nba3.jpeg",
+    "image4": "../../../public/images/NBA2k24/nba4.jpeg",
+    "image5": "../../../public/images/NBA2k24/nba5.jpeg"
   },
   {
     "id": 9,
@@ -176,11 +176,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 32 players)",
     "ratings": "4.7 / 5",
-    "image1": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption1.jpeg",
-    "image2": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption2.jpeg",
-    "image3": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption3.jpeg",
-    "image4": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption4.jpeg",
-    "image5": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption5.jpeg"
+    "image1": "../../../public/images/RedDeadRedemption2/RedDeadRedemption1.jpeg",
+    "image2": "../../../public/images/RedDeadRedemption2/RedDeadRedemption2.jpeg",
+    "image3": "../../../public/images/RedDeadRedemption2/RedDeadRedemption3.jpeg",
+    "image4": "../../../public/images/RedDeadRedemption2/RedDeadRedemption4.jpeg",
+    "image5": "../../../public/images/RedDeadRedemption2/RedDeadRedemption5.jpeg"
   },
 
   {
@@ -197,11 +197,11 @@
     "players": "1 - 4 players",
     "online_play": "Online multiplayer (upto to 22 players)",
     "ratings": "3.4 / 5",
-    "image1": "../../../dist/images/Fifa24/Fifa1.jpeg",
-    "image2": "../../../dist/images/Fifa24/Fifa2.jpeg",
-    "image3": "../../../dist/images/Fifa24/Fifa3.jpeg",
-    "image4": "../../../dist/images/Fifa24/Fifa4.jpeg",
-    "image5": "../../../dist/images/Fifa24/Fifa5.jpeg"
+    "image1": "../../../public/images/Fifa24/Fifa1.jpeg",
+    "image2": "../../../public/images/Fifa24/Fifa2.jpeg",
+    "image3": "../../../public/images/Fifa24/Fifa3.jpeg",
+    "image4": "../../../public/images/Fifa24/Fifa4.jpeg",
+    "image5": "../../../public/images/Fifa24/Fifa5.jpeg"
   },
 
   {
@@ -218,11 +218,11 @@
     "players": "Single player",
     "online_play": "Single player offline",
     "ratings": "4.2 / 5",
-    "image1": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla1.webp",
-    "image2": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla2.jpeg",
-    "image3": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla3.jpeg",
-    "image4": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla4.jpeg",
-    "image5": "../../../dist/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla5.jpeg"
+    "image1": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla1.webp",
+    "image2": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla2.jpeg",
+    "image3": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla3.jpeg",
+    "image4": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla4.jpeg",
+    "image5": "../../../public/images/Assassin'sCreedValhalla/Assassin'sCreedValhalla5.jpeg"
   },
   {
     "id": 12,
@@ -238,11 +238,11 @@
     "players": "Single player",
     "online_play": "Single player offline",
     "ratings": "4.6 / 5",
-    "image1": "../../../dist/images/SpidermanMilesMorales/spiderman1.png",
-    "image2": "../../../dist/images/SpidermanMilesMorales/spiderman2.jpeg",
-    "image3": "../../../dist/images/SpidermanMilesMorales/spiderman3.jpeg",
-    "image4": "../../../dist/images/SpidermanMilesMorales/spiderman4.jpeg",
-    "image5": "../../../dist/images/SpidermanMilesMorales/spiderman5.jpeg"
+    "image1": "../../../public/images/SpidermanMilesMorales/spiderman1.png",
+    "image2": "../../../public/images/SpidermanMilesMorales/spiderman2.jpeg",
+    "image3": "../../../public/images/SpidermanMilesMorales/spiderman3.jpeg",
+    "image4": "../../../public/images/SpidermanMilesMorales/spiderman4.jpeg",
+    "image5": "../../../public/images/SpidermanMilesMorales/spiderman5.jpeg"
   },
 
   {
@@ -259,11 +259,11 @@
     "players": "Single player",
     "online_play": "Single player offline",
     "ratings": "4.8 / 5",
-    "image1": "../../../dist/images/GodofWarRagnarok/GodofWar1.webp",
-    "image2": "../../../dist/images/GodofWarRagnarok/GodofWar2.jpeg",
-    "image3": "../../../dist/images/GodofWarRagnarok/GodofWar3.jpeg",
-    "image4": "../../../dist/images/GodofWarRagnarok/GodofWar4.jpeg",
-    "image5": "../../../dist/images/GodofWarRagnarok/GodofWar5.jpeg"
+    "image1": "../../../public/images/GodofWarRagnarok/GodofWar1.webp",
+    "image2": "../../../public/images/GodofWarRagnarok/GodofWar2.jpeg",
+    "image3": "../../../public/images/GodofWarRagnarok/GodofWar3.jpeg",
+    "image4": "../../../public/images/GodofWarRagnarok/GodofWar4.jpeg",
+    "image5": "../../../public/images/GodofWarRagnarok/GodofWar5.jpeg"
   },
   {
     "id": 14,
@@ -279,11 +279,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 4 players)",
     "ratings": "4.5 / 5",
-    "image1": "../../../dist/images/GhostofTsushima/GhostofTsushima1.jpeg",
-    "image2": "../../../dist/images/GhostofTsushima/GhostofTsushima2.jpeg",
-    "image3": "../../../dist/images/GhostofTsushima/GhostofTsushima3.jpeg",
-    "image4": "../../../dist/images/GhostofTsushima/GhostofTsushima4.jpeg",
-    "image5": "../../../dist/images/GhostofTsushima/GhostofTsushima5.jpeg"
+    "image1": "../../../public/images/GhostofTsushima/GhostofTsushima1.jpeg",
+    "image2": "../../../public/images/GhostofTsushima/GhostofTsushima2.jpeg",
+    "image3": "../../../public/images/GhostofTsushima/GhostofTsushima3.jpeg",
+    "image4": "../../../public/images/GhostofTsushima/GhostofTsushima4.jpeg",
+    "image5": "../../../public/images/GhostofTsushima/GhostofTsushima5.jpeg"
   },
   {
     "id": 15,
@@ -299,11 +299,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 10 players)",
     "ratings": "4.7 / 5",
-    "image1": "../../../dist/images/Uncharted4/Uncharted1.webp",
-    "image2": "../../../dist/images/Uncharted4/Uncharted2.jpeg",
-    "image3": "../../../dist/images/Uncharted4/Uncharted3.jpeg",
-    "image4": "../../../dist/images/Uncharted4/Uncharted4.jpeg",
-    "image5": "../../../dist/images/Uncharted4/Uncharted5.jpeg"
+    "image1": "../../../public/images/Uncharted4/Uncharted1.webp",
+    "image2": "../../../public/images/Uncharted4/Uncharted2.jpeg",
+    "image3": "../../../public/images/Uncharted4/Uncharted3.jpeg",
+    "image4": "../../../public/images/Uncharted4/Uncharted4.jpeg",
+    "image5": "../../../public/images/Uncharted4/Uncharted5.jpeg"
   },
   {
     "id": 16,
@@ -319,11 +319,11 @@
     "players": "Single player",
     "online_play": "Single player offline",
     "ratings": "4.4 / 5",
-    "image1": "../../../dist/images/LastofUs2/LastofUs1.jpeg",
-    "image2": "../../../dist/images/LastofUs2/LastofUs2.jpeg",
-    "image3": "../../../dist/images/LastofUs2/LastofUs3.jpeg",
-    "image4": "../../../dist/images/LastofUs2/LastofUs4.jpeg",
-    "image5": "../../../dist/images/LastofUs2/LastofUs5.jpeg"
+    "image1": "../../../public/images/LastofUs2/LastofUs1.jpeg",
+    "image2": "../../../public/images/LastofUs2/LastofUs2.jpeg",
+    "image3": "../../../public/images/LastofUs2/LastofUs3.jpeg",
+    "image4": "../../../public/images/LastofUs2/LastofUs4.jpeg",
+    "image5": "../../../public/images/LastofUs2/LastofUs5.jpeg"
   },
   {
     "id": 17,
@@ -339,11 +339,11 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 30 players)",
     "ratings": "4.5 / 5",
-    "image1": "../../../dist/images/GTAV/GTA1.jpeg",
-    "image2": "../../../dist/images/GTAV/GTA2.jpeg",
-    "image3": "../../../dist/images/GTAV/GTA3.jpeg",
-    "image4": "../../../dist/images/GTAV/GTA4.jpeg",
-    "image5": "../../../dist/images/GTAV/GTA5.jpeg"
+    "image1": "../../../public/images/GTAV/GTA1.jpeg",
+    "image2": "../../../public/images/GTAV/GTA2.jpeg",
+    "image3": "../../../public/images/GTAV/GTA3.jpeg",
+    "image4": "../../../public/images/GTAV/GTA4.jpeg",
+    "image5": "../../../public/images/GTAV/GTA5.jpeg"
   },
   {
     "id": 18,
@@ -359,11 +359,11 @@
     "players": "1 - 4 players",
     "online_play": "Online multiplayer (upto to 4 players)",
     "ratings": "4.1 / 5",
-    "image1": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint1.webp",
-    "image2": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint2.jpeg",
-    "image3": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint3.jpeg",
-    "image4": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint4.jpeg",
-    "image5": "../../../dist/images/Ghostreconbreakpoint/Ghostreconbreakpoint5.jpeg"
+    "image1": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint1.webp",
+    "image2": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint2.jpeg",
+    "image3": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint3.jpeg",
+    "image4": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint4.jpeg",
+    "image5": "../../../public/images/Ghostreconbreakpoint/Ghostreconbreakpoint5.jpeg"
   },
   {
     "id": 19,
@@ -379,11 +379,11 @@
     "players": "1 - 4 players",
     "online_play": "Online multiplayer (upto to 22 players)",
     "ratings": "3.4 / 5",
-    "image1": "../../../dist/images/Fifa24/Fifa1.jpeg",
-    "image2": "../../../dist/images/Fifa24/Fifa2.jpeg",
-    "image3": "../../../dist/images/Fifa24/Fifa3.jpeg",
-    "image4": "../../../dist/images/Fifa24/Fifa4.jpeg",
-    "image5": "../../../dist/images/Fifa24/Fifa5.jpeg"
+    "image1": "../../../public/images/Fifa24/Fifa1.jpeg",
+    "image2": "../../../public/images/Fifa24/Fifa2.jpeg",
+    "image3": "../../../public/images/Fifa24/Fifa3.jpeg",
+    "image4": "../../../public/images/Fifa24/Fifa4.jpeg",
+    "image5": "../../../public/images/Fifa24/Fifa5.jpeg"
   },
   {
     "id": 20,
@@ -399,10 +399,10 @@
     "players": "Single player",
     "online_play": "Online multiplayer (upto to 32 players)",
     "ratings": "4.7 / 5",
-    "image1": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption1.jpeg",
-    "image2": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption2.jpeg",
-    "image3": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption3.jpeg",
-    "image4": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption4.jpeg",
-    "image5": "../../../dist/images/RedDeadRedemption2/RedDeadRedemption5.jpeg"
+    "image1": "../../../public/images/RedDeadRedemption2/RedDeadRedemption1.jpeg",
+    "image2": "../../../public/images/RedDeadRedemption2/RedDeadRedemption2.jpeg",
+    "image3": "../../../public/images/RedDeadRedemption2/RedDeadRedemption3.jpeg",
+    "image4": "../../../public/images/RedDeadRedemption2/RedDeadRedemption4.jpeg",
+    "image5": "../../../public/images/RedDeadRedemption2/RedDeadRedemption5.jpeg"
   }
 ]
