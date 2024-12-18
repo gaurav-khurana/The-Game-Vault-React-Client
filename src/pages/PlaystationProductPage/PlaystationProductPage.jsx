@@ -5,31 +5,18 @@ import LeftBlue from "../../assets/icons/left-key-blue.svg";
 import RightBlue from "../../assets/icons/right-key-blue.svg";
 import { Link } from "react-router-dom";
 import GameCard from "../../components/GameCard/GameCard";
-import { useEffect, useState } from "react";
-import axios from "axios";
+// import { useEffect, useState } from "react";
+// import axios from "axios";
+import allGamesData from "../../data/xbox-ps-games.json";
 
 function PlaystationProductPage() {
-  // state to set all games
+  console.log(allGamesData);
 
-  const [allGames, setAllGames] = useState([]);
-
-  // useEffect to do axios call to GET all playstation games
-  useEffect(() => {
-    async function getAllPSGames() {
-      const response = await axios.get(
-        // `${import.meta.env.VITE_BASE_URL}/games/ps`
-        `http://localhost:8080/games/ps`
-      );
-
-      // console.log(response.data);
-
-      setAllGames(response.data);
-    }
-    getAllPSGames();
-  }, [setAllGames]);
+  const allPSGames = allGamesData.filter((game) => game.platform === "PS4 PS5");
+  console.log(allPSGames);
 
   return (
-    allGames && (
+    allPSGames && (
       <>
         <main className="ps">
           <section className="ps-hero">
@@ -77,7 +64,7 @@ function PlaystationProductPage() {
 
           <section className="ps-titles-container">
             {/* map func here to serve image & data to GameCard */}
-            {allGames?.map((game) => (
+            {allPSGames.map((game) => (
               <GameCard key={game.id} game={game} />
             ))}
             {/* <GameCard />

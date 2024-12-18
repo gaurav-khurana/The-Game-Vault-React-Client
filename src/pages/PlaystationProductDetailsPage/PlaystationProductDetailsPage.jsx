@@ -4,27 +4,36 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import GameCarousel from "../../components/Carousel/Carousel";
+import allGamesData from "../../data/xbox-ps-games.json";
 
 function PlaystationProductDetailsPage() {
-  // state to set all games
-  const [singleGame, setSingleGames] = useState({});
+  // state to set price of game
   const [price, setPrice] = useState("");
 
   // get id from params to do api call
   const { id } = useParams();
+  console.log(id);
+
+  // find game based on platform & id
+
+  const allPSGames = allGamesData.filter((game) => game.platform === "PS4 PS5");
+  console.log(allPSGames);
+
+  const singleGame = allPSGames.find((game) => game.id === Number(id));
+  console.log(singleGame);
 
   // useEffect to do axios call to get single game by id
-  useEffect(() => {
-    async function getSingleGame() {
-      const response = await axios.get(`http://localhost:8080/games/ps/${id}`);
+  // useEffect(() => {
+  //   async function getSingleGame() {
+  //     const response = await axios.get(`http://localhost:8080/games/ps/${id}`);
 
-      // console.log(response.data);
+  //     // console.log(response.data);
 
-      setSingleGames(response.data);
-    }
+  //     setSingleGames(response.data);
+  //   }
 
-    getSingleGame();
-  }, [setSingleGames, id]);
+  //   getSingleGame();
+  // }, [setSingleGames, id]);
 
   // event handler to get price selected by user
   const handlePrice = (event) => {
