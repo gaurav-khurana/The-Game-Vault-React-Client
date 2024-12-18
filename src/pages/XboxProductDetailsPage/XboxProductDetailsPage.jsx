@@ -1,35 +1,43 @@
 import "./XboxProductDetailsPage.scss";
 import Cart from "../../assets/icons/cart.svg";
-import axios from "axios";
-import { useEffect, useState } from "react";
+// import axios from "axios";
+import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import GameCarousel from "../../components/Carousel/Carousel";
+import allGamesData from "../../data/xbox-ps-games.json";
 
 function XboxProductDetailsPage() {
   // state to set all games
 
-  const [singleGame, setSingleGames] = useState({});
+  // const [singleGame, setSingleGames] = useState({});
   const [price, setPrice] = useState("");
 
   // get id from params to do api call
 
   const { id } = useParams();
 
+  // find game by platfrom & id
+  const allXboxGames = allGamesData.filter(
+    (game) => game.platform === "Xbox One  Xbox Series X | S"
+  );
+
+  const singleGame = allXboxGames.find((game) => game.id == id);
+
   // useEffect to do axios call to get single game by id
 
-  useEffect(() => {
-    async function getSingleGame() {
-      const response = await axios.get(
-        `http://localhost:8080/games/xbox/${id}`
-      );
+  // useEffect(() => {
+  //   async function getSingleGame() {
+  //     const response = await axios.get(
+  //       `http://localhost:8080/games/xbox/${id}`
+  //     );
 
-      // console.log(response.data);
+  //     // console.log(response.data);
 
-      setSingleGames(response.data);
-    }
+  //     setSingleGames(response.data);
+  //   }
 
-    getSingleGame();
-  }, [setSingleGames, id]);
+  //   getSingleGame();
+  // }, [setSingleGames, id]);
 
   // event handler to get price selected by user
   const handlePrice = (event) => {

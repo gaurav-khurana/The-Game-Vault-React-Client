@@ -5,30 +5,17 @@ import LeftGreen from "../../assets/icons/left-key-green.svg";
 import RightGreen from "../../assets/icons/right-key-green.svg";
 import { Link } from "react-router-dom";
 import GameCard from "../../components/GameCard/GameCard";
-import { useEffect, useState } from "react";
-import axios from "axios";
+// import { useEffect, useState } from "react";
+// import axios from "axios";
+import allGamesData from "../../data/xbox-ps-games.json";
 
 function XboxProductPage() {
-  // state to set all games
-  const [allGames, setAllGames] = useState([]);
-
-  // useEffect to do axios call to GET all playstation games
-  useEffect(() => {
-    async function getAllXboxGames() {
-      const response = await axios.get(
-        // `${import.meta.env.VITE_BASE_URL}/games/ps`
-        `http://localhost:8080/games/xbox`
-      );
-
-      console.log(response.data);
-
-      setAllGames(response.data);
-    }
-    getAllXboxGames();
-  }, [setAllGames]);
+  const allXboxGames = allGamesData.filter(
+    (game) => game.platform === "Xbox One  Xbox Series X | S"
+  );
 
   return (
-    allGames && (
+    allXboxGames && (
       <>
         <main className="xbox">
           <section className="xbox-hero">
@@ -78,7 +65,7 @@ function XboxProductPage() {
           <section className="xbox-titles-container">
             {/* map func here to serve image & data to GameCard */}
 
-            {allGames?.map((game) => (
+            {allXboxGames.map((game) => (
               <GameCard key={game.id} game={game} />
             ))}
           </section>
